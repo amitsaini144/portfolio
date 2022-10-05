@@ -27,6 +27,7 @@ body{
 .links{
     text-decoration: none;
     color:white;
+    font-size: 18px;
 }
 .header{
     padding: 10px;
