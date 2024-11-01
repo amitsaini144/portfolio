@@ -40,21 +40,6 @@ body {
   height: 300px;
 }
 
-@media (max-width: 600px) {
-  .logo-img {
-    height: 220px;
-  }
-  .links {
-    font-size: 14px;
-  }
-  .brand {
-    font-size: x-large;
-  }
-  .inline {
-    padding: 0px 10px;
-  }
-}
-
 .logo-heading {
   color: var(--primary-color);
 }
@@ -118,4 +103,24 @@ body {
   border-radius: 10px;
   display: block;
   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    height: 220px;
+  }
+  .links {
+    font-size: 14px;
+  }
+  .brand {
+    font-size: x-large;
+  }
+  .inline {
+    padding: 0px 10px;
+  }
+  .section-content {
+    text-align: center;
+    margin: 0 5%;
+    text-align: left;
+  }
 }
